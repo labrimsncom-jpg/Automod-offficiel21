@@ -1,0 +1,73 @@
+{
+  "guilds": {
+    "1555094581094260780": {
+      "log_channel": 1558357244012404777,
+      "antibot": false,
+      "antilink": {
+        "enabled": true,
+        "auto_warn": false,
+        "exempt_roles": [],
+        "allowed_domains": []
+      },
+      "wordfilter": {
+        "enabled": true,
+        "rules": [
+          {
+            "word": "fdp",
+            "sanction": "warn",
+            "duration": 0,
+            "role_id": null
+          }
+        ]
+      },
+      "general": {
+        "bypass_admins": false,
+        "exempt_roles": []
+      },
+      "antispam": {
+        "enabled": true,
+        "max_messages": 5,
+        "interval": 5,
+        "sanction": "timeout",
+        "duration": 600
+      },
+      "antiraid": {
+        "enabled": false,
+        "limit": 5,
+        "interval": 10,
+        "sanction": "kick",
+        "lockdown": 5,
+        "min_account_age_days": 0
+      },
+      "antinuke": {
+        "enabled": false,
+        "limit": 3,
+        "interval": 10,
+        "sanction": "ban",
+        "whitelist": [],
+        "watch_bots": false
+      },
+      "anticaps": {
+        "enabled": false,
+        "min_length": 8,
+        "percent": 70,
+        "sanction": "none",
+        "duration": 300
+      },
+      "cases": [
+        {
+          "id": 1,
+          "type": "warn",
+          "user": 1368642102615085106,
+          "mod": 0,
+          "reason": "Filtre de mots : « fdp »",
+          "at": 1792152440,
+          "duration": 0,
+          "active": true
+        }
+      ],
+      "case_counter": 1
+    }
+  },
+  "schedules": []
+}
